@@ -15,12 +15,13 @@ Updated: 2020-11-22 13:35:55
   margin-top: 0;
 }
 
-#steps-list {
-  margin: 60px 0 0;
-}
-
 .menu-link {
   font-size: 20px;
+}
+
+/* Plan an Event - Steps Listing */
+#steps-list {
+  margin: 60px 0 0;
 }
 
 .step {
@@ -54,6 +55,48 @@ Updated: 2020-11-22 13:35:55
 .step-thumb-container img {
   max-height: 220px;
 }
+
+/* Step Tabs */
+.tabs > nav {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.tab-link {
+  color: #444;
+  font-weight: bold;
+  margin-right: 32px;
+}
+
+.tab-link.active {
+  color: #4860f1 !important;
+  border-bottom: solid 4px #4860f1;
+  font-weight: bold;
+}
+
+.tab-content {
+  border: 1px solid #e6e6e6;
+  background-color: #fafafc;
+  border-radius: 5px;
+  padding: 35px;
+  display: none;
+  color: #333;
+}
+
+.tab-content p {
+  margin-bottom: 5px;
+}
+
+.tab-content .wp-block-columns {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.tab-content.active {
+  display: block;
+}
+
 
 @media (max-width: 767px) {
   .step {
